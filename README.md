@@ -6,8 +6,6 @@ Forecast six pollutants from the UCI AirQuality dataset using a multi-scale Conv
 
 - `msgat_air_quality.py` — data prep, model, training, evaluation, plots.
 - `AirQualityUCI.csv` — dataset (UCI Air Quality). Uses `;` delimiter, comma decimals.
-- `paper_draft.md` — rough-draft paper (Markdown).
-- `msgat_paper.tex` — LaTeX draft of the paper.
 - Generated outputs: `training_history.png`, `prediction_comparison.png`, `scatter_plot.png` (after running the script).
 
 ## Setup
@@ -51,14 +49,6 @@ What it does:
   - NO2(GT): µg/m³
   - PT08.S5(O3): sensor A.U. (not direct concentration)
 
-## Reproducing Paper Drafts
-
-- Markdown: `paper_draft.md`
-- LaTeX: compile with
-
-```bash
-pdflatex msgat_paper.tex
-```
 
 ## Notes
 
